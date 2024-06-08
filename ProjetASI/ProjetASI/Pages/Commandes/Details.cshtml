@@ -1,0 +1,82 @@
+﻿@page
+@model ProjetASI.Pages.Commandes.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Commande</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Commande.Id)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Commande.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Commande.Table)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Commande.Table.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Commande.Etat)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Commande.Etat)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Commande.Encaissee)
+        </dt>
+        <dd class="col-sm-10">
+            @(Model.Commande.Encaissee ? "Oui" : "Non")
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Commande.DateHeure)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Commande.DateHeure)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Commande.Serveur)
+        </dt>
+        <dd class="col-sm-10">
+            @(Model.Commande.Serveur.ToString())
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Commande.Barman)
+        </dt>
+        <dd class="col-sm-10">
+            @(Model.Commande.Barman != null ? Model.Commande.Barman.ToString() : "Non assigné")
+        </dd>
+        <dt class="col-sm-2">
+            Produits commandés
+        </dt>
+        <dd class="col-sm-10">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Quantité</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var produitCommande in Model.Commande.LesProduitsCommandes)
+                    {
+                        <tr>
+                            <th>@produitCommande.LeProduit.Nom</th>
+                            <th>@produitCommande.QuantiteProduit</th>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Index">Retourner à la liste des commandes</a>
+</div>

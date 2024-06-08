@@ -1,0 +1,53 @@
+﻿@page
+@model ProjetASI.Pages.Factures.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Les factures</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Facture[0].Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Facture[0].Commande)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Facture[0].Caissier)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Facture[0].MontantTotal)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Facture) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Commande.Id)
+            </td>
+            <td>
+                @(item.Caissier.ToString())
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MontantTotal)€
+            </td>
+            <td>
+                <a asp-page="./Details" asp-route-id="@item.Id">Détails</a>
+                @if (!item.Commande.Encaissee) {
+                    <a asp-page="/Encaissements/Create" asp-route-id="@item.Id">Encaisser</a>
+                }
+                <a asp-page="./Delete" asp-route-id="@item.Id">Supprimer</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

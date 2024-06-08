@@ -1,0 +1,51 @@
+﻿@page
+@model ProjetASI.Pages.Encaissements.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Les encaissements</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Encaissement[0].ID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Encaissement[0].Facture)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Encaissement[0].Montant)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Encaissement[0].Type)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Encaissement) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Facture.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Montant)€
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Type)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Éditer</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Détails</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Supprimer</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,37 @@
+﻿@page
+@model ProjetASI.Pages.Produits.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Détails</h1>
+
+<div>
+    <h4>Produit @(Model.Produit?.Id)</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Produit.Nom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Produit.Nom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Produit.Prix)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Produit.Prix)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Produit.Stock)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Produit.Stock)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Produit?.Id">Éditer</a> |
+    <a asp-page="./Index">Retourner à la liste des produits</a>
+</div>

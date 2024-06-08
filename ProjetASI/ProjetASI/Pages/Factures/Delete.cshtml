@@ -1,0 +1,39 @@
+﻿@page
+@model ProjetASI.Pages.Factures.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Supprimer</h1>
+
+<div>
+    <h4>Facture @Model.Facture?.Id</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Facture.Commande)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Facture.Commande.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Facture.Caissier)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Facture.Caissier.Nom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Facture.MontantTotal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Facture.MontantTotal)€
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Facture.Id" />
+        <input type="submit" value="Supprimer" class="btn btn-danger" /> |
+        <a asp-page="./Index">Retourner à la liste des factures</a>
+    </form>
+</div>

@@ -1,0 +1,65 @@
+﻿@page
+@model ProjetASI.Pages.Factures.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Détails</h1>
+
+<div>
+    <h4>Facture @Model.Facture?.Id</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Facture.Commande)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Facture.Commande.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Facture.Caissier)
+        </dt>
+        <dd class="col-sm-10">
+            @(Model.Facture.Caissier.ToString())
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Facture.DateHeure)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Facture.DateHeure)
+        </dd>
+        <dt class="col-sm-2">
+            Produits commandés
+        </dt>
+        <dd class="col-sm-10">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Quantité</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var produitCommande in Model.Facture.Commande.LesProduitsCommandes)
+                    {
+                        <tr>
+                            <th>@produitCommande.LeProduit.Nom</th>
+                            <th>@produitCommande.QuantiteProduit</th>
+                            <th>@((produitCommande.LeProduit.Prix * produitCommande.QuantiteProduit).ToString("0.00"))€</th>
+                        </tr>
+                    }
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th>@Html.DisplayFor(model => model.Facture.MontantTotal)€</th>
+                    </tr>
+                </tbody>
+            </table>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Index">Retourner à la liste des factures</a>
+</div>

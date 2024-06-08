@@ -1,0 +1,33 @@
+﻿@page
+@model ProjetASI.Pages.Serveurs.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Supprimer</h1>
+
+<div>
+    <h4>Serveur @(Model.Serveur?.Id)</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Serveur.Nom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Serveur.Nom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Serveur.Prenom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Serveur.Prenom)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Serveur.Id" />
+        <input type="submit" value="Supprimer" class="btn btn-danger" /> |
+        <a asp-page="./Index">Retourner à la liste des serveurs</a>
+    </form>
+</div>

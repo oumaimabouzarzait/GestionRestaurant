@@ -1,0 +1,45 @@
+﻿@page
+@model ProjetASI.Pages.Factures.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Facture</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Facture.Id" />
+            <div class="form-group">
+                <label asp-for="Facture.MontantTotal" class="control-label"></label>
+                <input asp-for="Facture.MontantTotal" class="form-control" />
+                <span asp-validation-for="Facture.MontantTotal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Facture.CaissierId" class="control-label"></label>
+                <select asp-for="Facture.CaissierId" class="form-control" asp-items="ViewBag.CaissierId"></select>
+                <span asp-validation-for="Facture.CaissierId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Facture.CommandeId" class="control-label"></label>
+                <select asp-for="Facture.CommandeId" class="form-control" asp-items="ViewBag.CommandeId"></select>
+                <span asp-validation-for="Facture.CommandeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

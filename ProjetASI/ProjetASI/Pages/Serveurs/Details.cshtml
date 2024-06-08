@@ -1,0 +1,31 @@
+﻿@page
+@model ProjetASI.Pages.Serveurs.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Détails</h1>
+
+<div>
+    <h4>Serveur @(Model.Serveur?.Id)</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Serveur.Nom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Serveur.Nom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Serveur.Prenom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Serveur.Prenom)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Serveur?.Id">Éditer</a> |
+    <a asp-page="./Index">Retourner à la liste des serveurs</a>
+</div>

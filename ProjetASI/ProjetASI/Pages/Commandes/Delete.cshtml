@@ -1,0 +1,18 @@
+﻿@page
+@model ProjetASI.Pages.Commandes.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Supprimer</h1>
+
+<div>
+    <h4>Commande @Model.Commande.Id</h4>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Commande.Id" />
+        <input type="submit" value="Supprimer" class="btn btn-danger" /> |
+        <a asp-page="./Index">Retourner à la liste des commandes</a>
+    </form>
+</div>

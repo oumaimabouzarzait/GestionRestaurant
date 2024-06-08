@@ -1,0 +1,43 @@
+﻿@page
+@using ProjetASI.Models;
+@model ProjetASI.Pages.Encaissements.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Éditer</h1>
+
+<h4>Encaissement @Model.Encaissement?.ID</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Encaissement.ID" />
+            <input type="hidden" asp-for="Encaissement.DateHeure" />
+            <input type="hidden" asp-for="Encaissement.FactureId" />
+            <div class="form-group">
+                <label asp-for="Encaissement.Montant" class="control-label"></label>
+                <input asp-for="Encaissement.Montant" class="form-control" />
+                <span asp-validation-for="Encaissement.Montant" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Encaissement.Type" class="control-label"></label>
+                <select asp-for="Encaissement.Type" class="form-control" asp-items="Html.GetEnumSelectList<TypeEncaissement>()"></select>
+                <span asp-validation-for="Encaissement.Type" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Sauvegarder" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Retourner à la liste des encaissements</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

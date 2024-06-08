@@ -1,0 +1,45 @@
+﻿@page
+@model ProjetASI.Pages.Produits.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Éditer</h1>
+
+<h4>Produit @(Model.Produit?.Id)</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Produit.Id" />
+            <div class="form-group">
+                <label asp-for="Produit.Nom" class="control-label"></label>
+                <input asp-for="Produit.Nom" class="form-control" />
+                <span asp-validation-for="Produit.Nom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Produit.Prix" class="control-label"></label>
+                <input asp-for="Produit.Prix" class="form-control" />
+                <span asp-validation-for="Produit.Prix" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Produit.Stock" class="control-label"></label>
+                <input asp-for="Produit.Stock" class="form-control" />
+                <span asp-validation-for="Produit.Stock" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Sauvegarder" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Retourner à la liste des produits</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

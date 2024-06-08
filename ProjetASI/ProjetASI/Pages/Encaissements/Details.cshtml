@@ -1,0 +1,43 @@
+﻿@page
+@model ProjetASI.Pages.Encaissements.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Détails</h1>
+
+<div>
+    <h4>Encaissement @Model.Encaissement?.ID</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Encaissement.Facture)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Encaissement.Facture.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Encaissement.Montant)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Encaissement.Montant)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Encaissement.Type)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Encaissement.Type)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Encaissement.DateHeure)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Encaissement.DateHeure)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Encaissement?.ID">Éditer</a> |
+    <a asp-page="./Index">Retourner à la liste des encaissements</a>
+</div>

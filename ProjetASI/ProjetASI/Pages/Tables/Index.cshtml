@@ -1,0 +1,51 @@
+﻿@page
+@model ProjetASI.Pages.Tables.IndexModel
+
+@{
+    ViewData["Title"] = "Les tables";
+}
+
+<h1>Les tables</h1>
+
+<p>
+    <a asp-page="Create">Ajouter une table</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Table[0].Id)
+            </th>
+            <th>
+                Capacité
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Table[0].Etat)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Table) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.NbClients)/@Html.DisplayFor(modelItem => item.NbPlaces)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Etat)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Éditer</a>
+                @if (item.Etat == Models.EtatTable.EN_ATTENTE)
+                {
+                    <a asp-page="/Commandes/Create" asp-route-id="@item.Id">Prendre commande</a>
+                }
+                <a asp-page="./Delete" asp-route-id="@item.Id">Supprimer</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

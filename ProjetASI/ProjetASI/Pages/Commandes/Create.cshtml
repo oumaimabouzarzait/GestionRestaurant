@@ -1,0 +1,55 @@
+﻿@page
+@using ProjetASI.Models;
+@model ProjetASI.Pages.Commandes.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Prendre commande</h1>
+
+<h4>Table @ViewBag.Table.Id</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Commande.TableId" value="@ViewBag.Table.Id" />
+            <div class="form-group">
+                <label asp-for="Commande.ServeurId" class="control-label"></label>
+                <select asp-for="Commande.ServeurId" class ="form-control" asp-items="ViewBag.Serveurs"></select>
+            </div>
+            @if (ViewBag.Produits != null)
+            {
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Quantité</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in ViewBag.Produits)
+                        {
+                            <tr>
+                                <th><input type="hidden" name="produits" value="@item.Id" /> @item.Nom</th>
+                                <th><input type="number" name="quantites" /></th>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            <div class="form-group">
+                <input type="submit" value="Envoyer la commande" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="/Tables/Index">Retourner à la liste des tables</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

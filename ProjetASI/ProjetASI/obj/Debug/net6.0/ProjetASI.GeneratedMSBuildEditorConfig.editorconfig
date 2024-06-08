@@ -1,0 +1,220 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProjetASI
+build_property.RootNamespace = ProjetASI
+build_property.ProjectDir = C:\Users\tech\Downloads\TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima\ProjetASI\ProjetASI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\tech\Downloads\TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima\ProjetASI\ProjetASI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Barmans/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFybWFuc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Barmans/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFybWFuc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Barmans/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFybWFuc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Barmans/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFybWFuc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Barmans/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFybWFuc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Caissiers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2Fpc3NpZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Caissiers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2Fpc3NpZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Caissiers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2Fpc3NpZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Caissiers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2Fpc3NpZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Caissiers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2Fpc3NpZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Commandes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWFuZGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Commandes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWFuZGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Commandes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWFuZGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Commandes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWFuZGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Commandes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWFuZGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Commandes/Preparer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWFuZGVzXFByZXBhcmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Commandes/Servir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWFuZGVzXFNlcnZpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Encaissements/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5jYWlzc2VtZW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Encaissements/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5jYWlzc2VtZW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Encaissements/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5jYWlzc2VtZW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Encaissements/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5jYWlzc2VtZW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Encaissements/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5jYWlzc2VtZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Factures/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFjdHVyZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Factures/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFjdHVyZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Factures/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFjdHVyZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Factures/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFjdHVyZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Factures/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFjdHVyZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Produits/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVpdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Produits/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVpdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Produits/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVpdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Produits/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVpdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Produits/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVpdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Serveurs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmV1cnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Serveurs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmV1cnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Serveurs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmV1cnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Serveurs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmV1cnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Serveurs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmV1cnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Tables/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Tables/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Tables/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Tables/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Tables/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tech/Downloads/TADLAOUI_HABIBI_Imane-BOUZARZAIT_Oumaima/ProjetASI/ProjetASI/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-n8ph5c9kqk
